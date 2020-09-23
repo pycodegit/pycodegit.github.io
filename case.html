@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Mosaddek">
+  <meta name="keyword" content="FlatLab, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <title>产品图片</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+  <link href="css/bootstrap-reset.css" rel="stylesheet">
+  <!--external css-->
+  <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/flexslider.css"/>
+  <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- js placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/hover-dropdown.js"></script>
+  <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/link-hover.js"></script>
+  <!--common script for all pages-->
+  <script src="js/common-scripts.js"></script>
+  <script src="js/HTMLfengzhuang.js"></script>
+</head>
+
+<body>
+
+        <!--header start-->
+        <header id="headerHTML" class="header-frontend">
+        </header>
+    <!--header end-->
+
+    <!--breadcrumbs start-->
+    <div class="breadcrumbs" style="margin-bottom:20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4">
+                    <h1>产品图片</h1>
+                </div>
+                <div class="col-lg-8 col-sm-8">
+                    <ol class="breadcrumb pull-right">
+                        <li><a href="#">首页</a></li>
+                        <li class="active">产品图片</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumbs end-->
+    
+	<!--case start-->
+<div class="case_container">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-4 case_box">
+            	<div class="case_img">
+                	<img src="img/imgDG/mengmian1.jpg">
+                    <span class="case_text">产品图片</span>
+                </div>
+                
+            </div>
+            <div class="col-lg-4 case_box">
+            	<div class="case_img">
+                	<img src="img/imgDG/mengmian2.jpg">
+                     <span class="case_text">产品图片</span>
+                </div>
+            </div>
+            <div class="col-lg-4 case_box">
+            	<div class="case_img">
+                	<img src="img/imgDG/mengmian3.jpg">
+                    <span class="case_text">产品图片</span>
+                </div>
+            </div>
+            <div class="col-lg-4 case_box">
+            	<div class="case_img">
+                	<img src="img/imgDG/mengmian4.jpg">
+                    <span class="case_text">产品图片</span>
+                </div>
+            </div>
+            <div class="col-lg-4 case_box">
+            	<div class="case_img">
+                	<img src="img/imgDG/mengmian5.jpg">
+                    <span class="case_text">产品图片</span>
+                </div>
+            </div>
+            <div class="col-lg-4 case_box">
+            	<div class="case_img">
+                	<img src="img/imgDG/mengmian6.jpg">
+                    <span class="case_text">产品图片</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center" style="margin-top:20px;">
+             <ul class="pagination">
+                 <li><a href="#">«</a></li>
+                 <li class="active"><a href="#">1</a></li>
+                 <li><a href="#">2</a></li>
+                 <li><a href="#">3</a></li>
+                 <li><a href="#">4</a></li>
+                 <li><a href="#">5</a></li>
+                 <li><a href="#">»</a></li>
+              </ul>
+        </div>
+    </div>
+</div> 
+
+     <!--footer start-->
+        <footer id="footerHTML" class="footer"></footer>
+     <!--footer end-->
+
+  <script>
+      $(window).load(function() {
+          $('[data-zlname = reverse-effect]').mateHover({
+              position: 'y-reverse',
+              overlayStyle: 'rolling',
+              overlayBg: '#fff',
+              overlayOpacity: 0.7,
+              overlayEasing: 'easeOutCirc',
+              rollingPosition: 'top',
+              popupEasing: 'easeOutBack',
+              popup2Easing: 'easeOutBack'
+          });
+      });
+
+      $(window).load(function() {
+          $('.flexslider').flexslider({
+              animation: "slide",
+              start: function(slider) {
+                  $('body').removeClass('loading');
+              }
+          });
+      });
+
+      $().ready(function(){
+        $('#anliLi').addClass('active');
+      })
+
+  </script>
+
+</body>
+</html>
